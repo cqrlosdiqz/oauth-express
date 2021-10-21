@@ -1,0 +1,15 @@
+extend templates/template
+block title 
+  title Login
+block content
+  body 
+    form(action='/api/auth/signin' method='post').form__login
+      fieldset Login
+      div.form__field
+        label.form__label Username:
+        input(type='email' name='email').form__input
+      div.form__field
+        label.form__label  Password:
+        input(type='password' name='password').form__input
+      div.form__field
+        input(type='submit' value='Log In').form__input.form__input--submit

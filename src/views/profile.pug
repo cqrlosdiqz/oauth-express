@@ -1,0 +1,8 @@
+extend templates/template
+block title 
+  title Profile
+block content
+  a(href="/api/auth/logout") logout
+  h1= `Profile ${(user.provider).toUpperCase()}`
+  pre= user
+  p= user.email

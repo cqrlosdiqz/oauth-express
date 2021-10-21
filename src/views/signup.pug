@@ -1,0 +1,17 @@
+extend templates/template
+block title 
+  title Register
+block content
+    form(action='/api/auth/signup' method='post').form__login
+      fieldset Register
+      div.form__field
+        label.form__label Name:
+        input(type='text' name='name').form__input
+      div.form__field
+        label.form__label Email:
+        input(type='email' name='email').form__input
+      div.form__field
+        label.form__label  Password:
+        input(type='password' name='password').form__input
+      div.form__field
+        input(type='submit' value='Register').form__input.form__input--submit

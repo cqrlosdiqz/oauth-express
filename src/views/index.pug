@@ -1,0 +1,13 @@
+extend templates/template
+block title 
+  title Home
+block content
+  nav.nav
+    ul.nav__list
+      li.nav__item: a(href="/signup").nav__link Register
+      li.nav__item: a(href="/login").nav__link Login
+      li.nav__item: a(href="/api/auth/github").nav__link  Github
+      li.nav__item: a(href="/api/auth/google").nav__link  Google
+      li.nav__item: a(href="/api/auth/twitter").nav__link  Twitter
+      li.nav__item: a(href="/api/auth/facebook").nav__link  Facebook
+
