@@ -3,7 +3,7 @@
 ## 10. Ejercicios finales de repaso
 
 
-### 2) Implementar un webscraper para el Black Friday
+### 2) autenticación con OAuth
 
 
 ¡Extra!¡Extra! Lo mismo pero pudiendo hacer login por OAuth de Google, Facebook, etc.
