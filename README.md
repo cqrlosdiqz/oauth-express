@@ -6,8 +6,7 @@
 ### 2) autenticación con OAuth
 
 Crear un archivo .env con las siguientes variables de entorno:
-
-  .env
+```
   PORT=
   URI_MONGODB=
   SESSION_SECRET=
@@ -19,3 +18,4 @@ Crear un archivo .env con las siguientes variables de entorno:
   TWITTER_CONSUMER_SECRET=
   FACEBOOK_APP_ID=
   FACEBOOK_APP_SECRET=
+  ```
